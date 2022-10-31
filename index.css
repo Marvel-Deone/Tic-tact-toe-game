@@ -1,0 +1,251 @@
+/* section {
+    text-align: center;
+}
+.game--contianer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+.cell {
+    font-family: cursive;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    font-size: 60px;
+    cursor: pointer;
+} */
+/* .background {
+    background-color: #121818;
+    height: 100vh;
+    padding: 1px;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-blend-mode: color-burn;
+	background-color: rgba(0,0,0, 0.8);
+    overflow-y: hidden;
+}
+
+main {
+    margin-left: 470px;
+    margin-top: 15px;
+    width: 370px;
+    height: 1200px;
+    border-radius: 20px;
+}
+.overall {
+    margin-top: -35px;
+}
+
+.background {
+    background-color: #121818;
+    height: 100vh;
+    padding: 1px;
+}
+#player1 {
+    margin-top: 10px;
+    margin-left: 8px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+::placeholder {
+    text-align: center;
+    color: white;
+}
+#player2 {
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    /* padding: 4px; */
+}
+
+#re-play {
+    margin-left: 150px;
+    /* transform: translateX(-60%); */
+    /* background-color: yellow; */
+}
+
+#btn {
+    margin-left: 14px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    background-color: green;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    width: 80px;
+    height: 35px;
+}
+
+#mine {
+    display: none;
+}
+
+#nameplayer {
+    /* margin-left: 500px;  */
+    text-align: center;
+    color: white; 
+    font-size: 20px;
+}
+
+#result {
+    /* margin-left: 500px;  */
+    text-align: center;
+    color: white; 
+    font-size: 20px;
+}
+
+.title {
+    color: white; 
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10%;
+}
+#goodluck {
+    color: white; 
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.hide {
+    display: none;
+}
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+.cell {
+    /* border: 1px solid white; */
+    /* background-color: black; */
+    /* color: blanchedalmond; */
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 50px; */
+    cursor: pointer;
+    background-color: rgba(0,0,0, 0.7);
+	border-right: 3px inset silver;
+	border-bottom: 3px inset silver;
+	color: green;
+	font-size: 40pt;
+	padding: 10px;
+	text-align: center;
+	border-radius: 30px;
+}
+
+/* .playerX {
+    color: #09c372;
+} */
+
+/* .playerO {
+    color: #498af8;
+} */
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.scoreboard {
+        width: 90%;
+        margin-top: -10px;
+		margin: 10px auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+    .firstplayer {
+		height: 50px;
+		width: 30%;
+		color: white;
+		font-size: 20pt;
+		text-align: center;
+		padding: 15px;
+	}
+
+	.score {
+		background-color: rgba(0,0,0, 0.6);
+		height: 50px;
+		width: 50%;
+		border-radius: 50px;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+		border-top: 2px solid silver;
+		box-shadow: 2px 6px 5px 0 rgba(255, 255, 255, 0.5);	
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+    .score div {
+		text-align: center;
+		font-size: 30pt;
+		color: white;
+	}
+
+	.secondplayer {
+		height: 50px;
+		width: 30%;
+		color: white;
+		font-size: 20pt;
+		text-align: center;
+		padding: 15px;
+	}
+    #scoreone {
+        border-radius: 50px;
+        width: 200px;
+        margin-left: -8px;
+    }
+    #scoretwo {
+        border-radius: 50px;
+        width: 200px;
+    }
+
+    .replaybutton {
+        background-color: green;
+        color: white;
+        /* margin-top: -650px !important; */
+        transform: translateY(-60%) !important;
+        padding: 8px;
+        border-radius: 50px;
+        border: none;
+        font-size: 15px;
+        width: 100px;
+        /* transform: translateX(-36%); */
+        margin-left: 140px !important;
+        cursor: pointer;
+    }

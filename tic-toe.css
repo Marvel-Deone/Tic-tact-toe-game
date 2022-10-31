@@ -1,0 +1,136 @@
+body {
+    background-color: rgba(0,0,0, 0.8);
+}
+
+.div-board {
+    margin-top: 70px;
+    margin-left: 500px;
+    background-color: white;
+    width: 285px;
+    height: 570px;
+    border-radius: 45px;
+    padding-top: 35px;
+    padding-left: 20px;
+    box-shadow: 0 0 0 4px royalblue;
+}
+
+.div-tic-tac-toe {
+    background-color: #498af8;
+    width: 265px;
+    height: 462px;
+    padding-top: 8px;
+    margin-top: 25px;
+
+}
+
+#all {
+    margin-top: 65px;
+    margin-left: 10px;
+}
+
+#tic {
+    color: black;
+    font-size: 45px;
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#tic2 {
+    color: white;
+    font-size: 41px;
+    font-family: cursive;
+    transform: translateY(-190%);
+    margin-left: -5px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#tac {
+    color: black;
+    font-size: 45px;
+    font-family: cursive;
+    margin-top: -35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#tac2 {
+    color: white;
+    font-size: 45px;
+    font-family: cursive;
+    transform: translateY(-170%);
+    margin-left: -5px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#tic-all {
+    margin-left: -15px;
+}
+#tac-all {
+    transform: translateY(-70%);
+    margin-left: -10px;
+}
+#toe {
+    font-size: 100px;
+    font-family: cursive;
+    color: #F8D024;
+    font-weight: bolder;
+    margin-top: -340px;
+    margin-left: 18px;
+}
+
+#continue {
+    background-color: #C3C5CB;
+    border: none;
+    width: 130px;
+    height: 50px;
+    margin-left: 60px;
+    border-radius: 10px;
+    transform: translateY(-120%);
+}
+
+#continue a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#player {
+    display: flex;
+}
+#cam {
+    width: 70px;
+    background-color: #434343;
+    height: 5px;
+    margin-left: 95px;
+    border-radius: 6px;
+}
+#scam {
+    width: 6px;
+    height: 6px;
+    background-color: #434343;
+    margin-left: 75px;
+    margin-top: -4px;
+    border-radius: 5px;
+}
+
+#circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    transform: translateY(225%);
+    border: none;
+    /* margin-top: 75px; */
+    box-shadow: 0 0 4px 5px  silver;
+    margin-left: -84px;
+}
+
+/* #small {
+    background-color: red;
+    background-color: white; 
+    width: 40px;
+} */
