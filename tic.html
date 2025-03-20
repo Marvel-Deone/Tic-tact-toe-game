@@ -39,7 +39,7 @@
                      <div id="result" style="color: white; text-align: center;  font-size: 16px;" class="nameplayer">GOODLUCK dear players</div>
                     <input type="text" style="margin-left: 45px; margin-top: 2px; margin-bottom: 10px;" placeholder="player1" id="player1">
                     <input type="text" style="margin-left: 45px;" placeholder="player2" id="player2">
-                     <button id="btn" onclick="start()">Start</button>
+                     <button id="btn" onclick="start()" style="margin-top: 10px; margin-bottom: 30px;">Start</button>
                     <div id="mine" style="background-color: #121818;"></div>
                    
                     <section class="container">
@@ -58,7 +58,7 @@
                 <button id="ok" onclick="rePlay()">ok</button>	
             </div> -->
             <div class="replay">
-                <button id="replay" class="replaybutton" onclick="rePlay()">Re-play</button>	
+                <button id="replay" class="replaybutton" style="margin-top: 15px;" onclick="rePlay()">Re-play</button>	
             </div>
          <!-- <button id="continue">
              <a href="tic-toe.html">Continue</a>
@@ -205,7 +205,7 @@
         nameplayer.innerHTML = player2.value + " " + "has won the game. click re-play or end.";
         result.innerHTML = player1.value +"{O} It will be your turn after re-play";
         ++scoretwo.innerHTML;
-        alert(player2.value + "" + "has won the game. click re-play or end.");
+        alert(player2.value + " " + "has won the game. click re-play or end.");
         sound.pause();
         sound2.play();
     }
@@ -217,7 +217,7 @@
         nameplayer.innerHTML = player1.value + " " + "has won the game. click re-play or end.";
         result.innerHTML = player2.value +"{X} It will be your turn after re-play";
         ++scoreone.innerHTML;
-        alert(player1.value + "" + "has won the game. click re-play or end.");
+        alert(player1.value + " " + "has won the game. click re-play or end.");
         sound.pause();
         sound2.play();
         
@@ -268,7 +268,7 @@
     // THE END OF END AND START BUTTON
 
     // FUNCTION FOR THE WINNIG MESSAGE
-    if (nameplayer.innerHTML==player1.value + "has won the game. click replay to restart or end to end the game" || nameplayer.innerHTML==player2.value  + "has won the game. click replay to restart or end to end the game") {
+    if (nameplayer.innerHTML==player1.value + " " + "has won the game. click replay to restart or end to end the game" || nameplayer.innerHTML==player2.value + " "  + "has won the game. click replay to restart or end to end the game") {
         nameplayer.innerHTML == "We have a winner already click on replay or End."
     }
     if (event.target.innerHTML != "") {

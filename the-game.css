@@ -29,7 +29,7 @@ body {
     margin-left: 500px;
     background-color: white;
     width: 285px;
-    height: 570px;
+    height: 590px;
     border-radius: 45px;
     padding-top: 35px;
     padding-left: 20px;
@@ -39,10 +39,9 @@ body {
 .div-tic-tac-toe {
     background-color: #498af8;
     width: 265px;
-    height: 500px;
+    height: 515px;
     padding-top: 8px;
     margin-top: 9px;
-
 }
 
 .overall {
